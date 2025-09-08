@@ -6,6 +6,9 @@
   --cor-borda-preco: rgb(196, 196, 196);
 }
 
+/* CSS RESET: */
+
+
 /* 1. Use a more-intuitive box-sizing model */
 *, *::before, *::after {
   box-sizing: border-box;
@@ -53,6 +56,9 @@ h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
+/* FIM DO RESET CSS */
+
+
 *{
     font-family: Cabin;
 }
@@ -91,7 +97,7 @@ header{
         font-size: 1.05rem;
     }    
 
-    & li:not(:last-of-type)::after{
+    & li:not(:last-of-type)::after{ /* seleciona todas as li (menos a ultima) e insere uma barra vertical (after) do conteudo */
         content: "|";
         color:rgb(231, 230, 230);
         font-size: 1.6rem;
@@ -104,7 +110,7 @@ header{
     }
     
     & .lupa{
-        transform: scaleX(-1);
+        transform: scaleX(-1); /* imvertendo o icone da lupa pra ficar igual o do site oficial */
         border-radius: 3rem;
         margin-top: -0.6rem;
         width: 1.5rem;
@@ -155,18 +161,18 @@ main{
   & .galeria{
     margin: 0 23rem 0 23rem;
     display: grid;
-    grid-template-columns: 1fr 0.5fr 0.5fr;
-    grid-auto-rows: 15rem;   /* altura das linhas */
+    grid-template-columns: 1fr 0.5fr 0.5fr; /* cria tres colunas, sendo a primeira com 1fr (uma fracao do todo) e os demais ocupando a metade do primeiro */
+    grid-auto-rows: 15rem;   /* define a altura das linhas */
     gap: 0.5rem;
 
   & img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover; /* Preenche 100% do espaço disponível*/
   }
 
   & .destaque{
-    grid-row: span 2; /* a primeira ocupa duas linhas */
+    grid-row: span 2; /* a primeira foto ocupa duas linhas e deixa com aquele efeitinho LINDO*/
     border-radius: 0.8rem 0 0 0.8rem; 
   }
 }
@@ -229,8 +235,8 @@ main{
   }
 
   .preco-diaria { font-weight: 700; text-decoration: none; }
-  .preco-diaria .valor { text-decoration: underline; }
-  .preco-diaria .palavra-sem-efeito { font-weight: 400; margin-left: 0.5rem;}  /* sem negrito */
+  .preco-diaria .valor { text-decoration: underline; } /* sublinhado*/
+  .preco-diaria .palavra-sem-efeito { font-weight: 400; margin-left: 0.5rem;}  /* sem negrito e jogando um margin pra simular um espaço*/
 }
 
 .detalhes{
