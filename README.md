@@ -1,7 +1,6 @@
 # Página de Imóvel - Airbnb (Avaliação WebDev)
 
-Projeto desenvolvido em *HTML + CSS, baseado em um anúncio real do **Airbnb*: 
-https://www.airbnb.com.br/rooms/843606761779500929?check_in=2025-12-26&check_out=2025-12-28&photo_id=1946152761&source_impression_id=p3_1757114977_P3hJN3QJg3MSr1pJ&previous_page_section_name=1000.  
+Projeto desenvolvido em *HTML + CSS, baseado em um anúncio real do **Airbnb*
 O objetivo da atividade foi recriar, em uma página estática, as informações de um imóvel, aplicando os conteúdos trabalhados em sala de aula.
 
 ---
@@ -44,3 +43,5 @@ A página contém as seguintes informações, conforme solicitado:
 - *Flexbox e CSS Grid*  
 
 ---
+
+Link do imóvel real: https://www.airbnb.com.br/rooms/843606761779500929?check_in=2025-12-26&check_out=2025-12-28&photo_id=1946152761&source_impression_id=p3_1757114977_P3hJN3QJg3MSr1pJ&previous_page_section_name=1000.  
