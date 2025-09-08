@@ -13,9 +13,9 @@ O objetivo da atividade foi recriar, em uma página estática, as informações 
 
 ## 👥 Integrantes
 
-- Ulisses Ribeiro Abreu 
-- Arthur Ferreira
-- Levi de Jesus 
+- Ulisses Ribeiro Abreu - RM562230
+- Arthur Ferreira - RM564958
+- Levi de Jesus - RM563279
 
 ---
 
